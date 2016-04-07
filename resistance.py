@@ -1,0 +1,6 @@
+A_string=raw_input("please enter Area:(in m2)):")
+L_string=raw_input("please enter length:(in m)):")
+k_string=raw_input("please enter conductivity:(in W/m.K)):")
+print("\n ehi you just told me that "+" A= "+(A_string)+" L= "+(L_string)+" k= " +k_string)
+R=float(L_string)/(float(k_string)*float(A_string))
+print("\n the resistance will be "+str(R)+"\n")
